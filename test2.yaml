@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY f2u0a0d3
   description: |
-    %3c<
+    <img src="">
   version: production
 basePath: /comodifgateway
 produces:
@@ -25,7 +25,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <img src=1>
+            <
           format: int64
           in: path
           name: id
