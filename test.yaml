@@ -12,23 +12,6 @@ produces:
 consumes:
   - application/xml
   - application/json
-host: yolarkadasimapi.fiat.com.tr
-basePath: "/comodifgateway"
-tags:
-- name: user-jwt-controller
-  description: User JWT Controller
-- name: profile-info-resource
-  description: Profile Info Resource
-- name: account-resource
-  description: Account Resource
-- name: payload-resource
-  description: Payload Resource
-- name: user-resource
-  description: User Resource
-- name: gateway-resource
-  description: Gateway Resource
-- name: authority-resource
-  description: Authority Resource
 paths:
   /f2u0a0d3:
     get:
