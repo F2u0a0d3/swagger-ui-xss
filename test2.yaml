@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
-  title: XSS Attack BY f2u0a0d3<img src=1>
+  title: XSS Attack BY f2u0a0d3
   description: |
-    <img src=1>
+    %3c<
   version: production
 basePath: /comodifgateway
 produces:
@@ -18,7 +18,7 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - f2u0a0d3_XSS_D<img>
+        - f2u0a0d3_XSS_D
       operationId: findAccounts
       summary: Finds all accounts
   '/accounts/groupid/{id}':
