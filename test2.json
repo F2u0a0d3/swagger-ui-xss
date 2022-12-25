@@ -2,7 +2,7 @@
     "url": "https://f2u0a0d3.github.io/swagger-ui-xss/test2.yaml",
     "urls": [
         {
-            "url": "f2u0a0d3.github.io/swagger-ui-xss/test2.yaml",
+            "url": "https://f2u0a0d3.github.io/swagger-ui-xss/test2.yaml",
             "name": "Foo"
         }
     ]
