@@ -1,4 +1,4 @@
-swagger: '3.0.1'
+openapi: '3.0.1'
 info:
   title: XSS Attack BY f2u0a0d3
   description: |
